@@ -1,0 +1,70 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.balloon.nes-container .messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.balloon.nes-container .message.-left {
+    align-self: flex-start;
+}
+
+.balloon.nes-container .message.-right {
+    align-self: flex-end;
+}
+
+.balloon.nes-container .message {
+    display: flex;
+}
+
+.balloon.nes-container .message * {
+    align-self: flex-end;
+}
+
+.containers {
+    display: flex;
+}
+
+.containers * {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.nes-table-responsive {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: black;
+}
+
+.balloon.nes-container .nes-balloon {
+    max-width: 600px;
+    margin: 2rem 2rem;
+}
+
+.message img {
+    width: 64px;
+    height: 64px;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.center-horizontally {
+    display: flex;
+    justify-content: center;
+}
