@@ -1,4 +1,9 @@
 body {
+    background-color: #2E4053;
+    color: white;
+}
+
+.content {
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -39,6 +44,7 @@ h1, h2 {
 
 h3 {
     margin-top: 10px;
+    text-align: center;
 }
 
 .nes-table-responsive {
@@ -47,7 +53,12 @@ h3 {
 }
 
 a {
-    color: black;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .balloon.nes-container .nes-balloon {
@@ -60,6 +71,10 @@ a {
     height: 64px;
 }
 
+.messages {
+    color: black;
+}
+
 button {
     margin: 0 auto;
 }
@@ -67,4 +82,40 @@ button {
 .center-horizontally {
     display: flex;
     justify-content: center;
+}
+
+.header-title * {
+    margin-bottom: 0px;
+}
+
+.nes-table {
+    background-color: transparent;
+}
+
+.nes-container.with-title>.title {
+    background-color: #2E4053;
+    border-radius: 2px;
+}
+
+.culture {
+    display: flex;
+    justify-content: center;
+}
+
+.culture-text {
+    text-align: center;
+}
+
+.culture-vulture-headline {
+    text-align: center;
+}
+
+.culture-vulture-icons {
+    text-align: center;
+}
+
+.monkey-dance {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
