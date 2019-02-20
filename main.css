@@ -135,6 +135,10 @@ button {
     td {
         font-size: 10px;
     }
+    .message img {
+        width: 42px;
+        height: 42px;
+    }
 }
 
 .reverse {
