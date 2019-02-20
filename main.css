@@ -1,11 +1,17 @@
 body {
     background-color: #2E4053;
     color: white;
+    text-align: center;
 }
 
 .content {
     margin-right: 10%;
     margin-left: 10%;
+}
+
+h3 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .balloon.nes-container .messages {
@@ -44,15 +50,6 @@ body {
     flex-basis: 0;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
-h3 {
-    margin-top: 10px;
-    text-align: center;
-}
-
 .nes-table-responsive {
     display: flex;
     justify-content: center;
@@ -89,6 +86,10 @@ button {
     justify-content: center;
 }
 
+.header-title {
+    margin-top: 10px;
+}
+
 .header-title * {
     margin-bottom: 0px;
 }
@@ -107,22 +108,9 @@ button {
     justify-content: center;
 }
 
-.culture-text {
-    text-align: center;
-}
-
-.culture-vulture-headline {
-    text-align: center;
-}
-
-.culture-vulture-icons {
-    text-align: center;
-}
-
 .monkey-dance {
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -139,6 +127,14 @@ button {
         width: 42px;
         height: 42px;
     }
+    .organizations img {
+        display: block;
+        max-width:69px;
+        max-height:17px;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+    }
 }
 
 .reverse {
@@ -150,8 +146,27 @@ button {
     -ms-filter: "FlipH";
 }
 
+img {
+    height: 30px;
+}
+
 .project-image {
     height: 100px;
     margin-bottom: 10px;
     border-radius: 3px;
+}
+
+.organizations {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.culture-vulture-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
