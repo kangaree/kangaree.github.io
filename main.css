@@ -33,6 +33,12 @@ body {
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .containers {
+    display: block;
+  }
+}
+
 .containers * {
     flex-grow: 1;
     flex-basis: 0;
@@ -62,7 +68,6 @@ a:hover {
 }
 
 .balloon.nes-container .nes-balloon {
-    max-width: 600px;
     margin: 2rem 2rem;
 }
 
@@ -118,4 +123,31 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .containers {
+        display: block;
+    }
+    .message {
+        font-size: 13px;
+    }
+    td {
+        font-size: 10px;
+    }
+}
+
+.reverse {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.project-image {
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 3px;
 }
