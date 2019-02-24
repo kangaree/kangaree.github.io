@@ -69,8 +69,8 @@ a:hover {
 }
 
 .message img {
-    width: 64px;
-    height: 64px;
+    width: 42px;
+    height: 42px;
 }
 
 .messages {
@@ -169,4 +169,10 @@ img {
 .culture-vulture-icons {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#angellist {
+    height: 32px;
+    width: 24px;
+    margin-top: -20px;
 }
