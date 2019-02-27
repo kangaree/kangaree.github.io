@@ -113,7 +113,7 @@ button {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
     .containers {
         display: block;
     }
