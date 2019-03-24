@@ -4,6 +4,32 @@ body {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'redalert' ;
+    src: url('./fonts/C&C Red Alert [INET].ttf') format('truetype');
+}
+
+p {
+    font-family: 'redalert';
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.kangaroo h2 {
+    margin-bottom: 0;
+}
+
 .content {
     margin-right: 10%;
     margin-left: 10%;
@@ -113,30 +139,6 @@ button {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 970px) {
-    .containers {
-        display: block;
-    }
-    .message {
-        font-size: 13px;
-    }
-    td {
-        font-size: 10px;
-    }
-    .message img {
-        width: 42px;
-        height: 42px;
-    }
-    .organizations img {
-        display: block;
-        max-width:69px;
-        max-height:17px;
-        width: auto;
-        height: auto;
-        margin-right: 5px;
-    }
-}
-
 .reverse {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -154,6 +156,14 @@ img {
     height: 100px;
     margin-bottom: 10px;
     border-radius: 3px;
+}
+
+.project-image-todo {
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .organizations {
@@ -175,4 +185,80 @@ img {
     height: 32px;
     width: 24px;
     margin-top: -20px;
+}
+
+.kangaroo {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #2E4053;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.nes-container {
+    position: relative;
+    padding: .75rem 1rem;
+}
+
+.profile-pic-transparent {
+    height: 150px;
+}
+
+.left-aroo {
+    position: absolute;
+    margin-top: -32px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 64px;
+
+    z-index: 1001;
+}
+
+.right-aroo {
+    position: absolute;
+    margin-top: -32px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 64px;
+    right: 0;
+
+    z-index: 1001;
+}
+
+.nes-container img {
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 970px) {
+    .containers {
+        display: block;
+    }
+    .message {
+        font-size: 13px;
+    }
+    td {
+        font-size: 10px;
+    }
+    .message img {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .skills {
+        display: block;
+    }
+
+    .organizations {
+        display: block;
+    }
 }
