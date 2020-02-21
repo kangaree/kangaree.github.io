@@ -238,6 +238,15 @@ img {
     margin: 5px;
 }
 
+.panorama {
+    width: 95%;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.pnlm-container {
+    margin: 5px auto;
+}
 
 @media only screen and (max-width: 970px) {
     .containers {
