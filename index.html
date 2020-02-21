@@ -151,31 +151,30 @@
                 <script>
                     pannellum.viewer('panorama', {
                         "type": "equirectangular",
-                        "panorama": "https://i.imgur.com/7WUKfMi.jpg",
+                        "panorama": "https://i.imgur.com/fzGJaIb.jpg",
                         "autoLoad": true,
-                        "autoRotate": -2,
+                        // zoom out at start
                         "hfov": 120,
                         "title": "Barclays Center",
                         "pitch": -20,
-                        "yaw": -10,
+                        // 240 degrees not 360
+                        "haov": 240,
                     });
                     pannellum.viewer('panorama2', {
                         "type": "equirectangular",
-                        "panorama": "https://i.imgur.com/IYrhhWI.jpg",
+                        "panorama": "https://i.imgur.com/au0zHBf.jpg",
                         "autoLoad": true,
-                        "autoRotate": -3,
                         "hfov": 120,
                         "title": "Montgomery Park",
-                        "yaw": -10,
+                        "haov": 240,
                     });
                     pannellum.viewer('panorama3', {
                         "type": "equirectangular",
-                        "panorama": "https://i.imgur.com/QmRgFip.jpg",
+                        "panorama": "https://i.imgur.com/vd5txdl.jpg",
                         "autoLoad": true,
-                        "autoRotate": -2,
                         "hfov": 120,
                         "title": "Yankee Stadium",
-                        "yaw": -10,
+                        "haov": 240,
                     });
                 </script>
             </section>
