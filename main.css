@@ -158,6 +158,12 @@ img {
     border-radius: 3px;
 }
 
+.project-image-animal {
+    width: 180px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
 .project-image-todo {
     height: 100px;
     margin-bottom: 10px;
