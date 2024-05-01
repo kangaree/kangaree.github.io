@@ -2,3 +2,14 @@ a[title='letterboxd']::before {
     background-image: url("./images/logos/letterboxd-decal-dots-pos-rgb.svg");
     background-size: 20px 20px;
 }
+
+.face {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
